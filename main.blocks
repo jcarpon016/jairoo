@@ -1,1 +1,7 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id=")9N9]$i*k{Wt4rU3eKpR" x="20" y="20"></block><block type="device_forever" id="-%Cs:j[reC_}a]3XR9d@" x="225" y="24"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="R^LQ/h)CLYq2obD=SJ#}">fijar b a</variable><variable id="MKl]Cn=wPzaBYd#FqO|O">b</variable></variables><block type="device_forever" id="-%Cs:j[reC_}a]3XR9d@" x="86" y="88"><statement name="HANDLER"><block type="variables_set" id="p$H(,-k|}a5qLCWFc25g"><field name="VAR" id="R^LQ/h)CLYq2obD=SJ#}">fijar b a</field><value name="VALUE"><shadow type="math_number" id="1}|;bDPo|5LQM1mmWThP"><field name="NUM">0</field></shadow><block type="math_arithmetic" id="t(#WAj*Wv$[5CM#TPswG"><field name="OP">MINUS</field><value name="A"><shadow type="math_number" id="(K_IX:7+{@NhSo^:FZDo"><field name="NUM">255</field></shadow></value><value name="B"><shadow type="math_number" id="#3U0%POb/6,+?VB8zae@"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="k8e@xHYd$DY?TOsu,Hml"></block></value></block></value><next><block type="device_set_brightness" id="P,I;JpMjmjP:2%Mqb]a}"><value name="value"><shadow type="math_number_minmax" id="dox8cLH![..TO`JPvKl5"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">0</field></shadow><block type="variables_get" id=",GV@*D/9$ax9%N$.7Fro"><field name="VAR" id="MKl]Cn=wPzaBYd#FqO|O">b</field></block></value><next><block type="device_show_leds" id="MSopNevaV1@..=*7-UVy"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block></xml>
